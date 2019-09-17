@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "520876593671",
+    "firebase_url": "https://soberi-me.firebaseio.com",
+    "project_id": "soberi-me",
+    "storage_bucket": "soberi-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520876593671:android:a2bbfa5f20ee372d",
+        "android_client_info": {
+          "package_name": "com.example.soberime_v3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520876593671-7j9pir8m7gsdi3e3hkl4rs37agng45gg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soberime_v3",
+            "certificate_hash": "08678e12115c067449571f4b8a4f833fafaaf076"
+          }
+        },
+        {
+          "client_id": "520876593671-tvagfaff7saag7ok3itp74fsnaqisal6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFnwkTi7h7SnVahmhll5Zk1vnfld3Fh58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520876593671-tvagfaff7saag7ok3itp74fsnaqisal6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

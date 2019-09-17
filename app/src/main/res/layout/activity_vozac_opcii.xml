@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VozacOpciiActivity"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="@drawable/background_image_one_signup">
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/profileImageVozac"
+        android:src="@mipmap/customer"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:hint="Име"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/imeVozac"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:hint="Телефон"
+        android:id="@+id/telefonVozac"
+        android:layout_marginBottom="20sp"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        android:hint="Кола"
+        android:id="@+id/kolaVozac"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:id="@+id/potvrdaVozac"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFC107"
+        android:text="Потврди" />
+
+    <Button
+        android:id="@+id/nazadVozac"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FF9800"
+        android:text="Назад" />
+
+</LinearLayout>
